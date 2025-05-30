@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@digisign/i18n": ["libs/i18n/src/index.ts"],
+      "@digisign/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@digisign/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
